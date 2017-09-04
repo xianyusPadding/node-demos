@@ -18,7 +18,8 @@ var server = express();
 server.use(objMulter.any());
 
 server.post('/', function(req, res){
-    //因为原始的multer处理的文件是不带扩展名的，是一串数字和字母，打开是一段乱码，所以我们要使用fs.rename给文件加上扩展名，就可以清楚的知道文件内容
+    //因为原始的multer处理的文件是不带扩展名的，是一串数字和字母，打开是一段乱码，
+    //所以我们要使用fs.rename给文件加上扩展名，就可以清楚的知道文件内容
     var newName = req.files[0].path + pathLib.parse(req.files[0].originalname).ext;
     fs.rename(req.files[0].path, newName, function(err){
         if(err){
