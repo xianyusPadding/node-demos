@@ -1,0 +1,84 @@
+*{
+	font-family: "微软雅黑";
+}
+body,ul,li,h4{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style: outside none none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+#top{
+	width:100%;
+	max-width: 1263px;
+	height:43px;
+	margin:auto;
+	/*background: red;*/
+	position: relative;
+}
+#top .login{
+	width: 200px;
+	line-height: 14px;
+	position: absolute;
+}
+#top .login a:hover{
+	color:white;
+	border-radius: 3px;
+	background: #ff9900;
+}
+#top .login p{
+	display: inline-block;
+}
+#top .menu{
+	width:400px;
+	margin-left:350px;
+	border-bottom:2px solid #ff9900;
+}
+#top .menu li{
+	width:130px;
+	line-height: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+	display:inline-block;
+}
+#top .menu li:hover{
+	color:white;
+	background: #ff9900;
+	border-radius: 5px;
+}
+#top .search{
+	width:250px;
+	margin-top: -41px;
+	/*background: red;*/
+	float:right;	
+}
+#top .searchText{
+	width: 200px;
+	height: 26px;
+
+}
+#top .searchButtom{
+	width:40px;
+	height: 33px;
+}
+
+
+
+
+
+#bottom{
+	width: 100%;
+	max-width: 1263px;
+	height: 40px;
+	margin:auto;
+	background: #ff9900;
+}
+#bottom p{
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}

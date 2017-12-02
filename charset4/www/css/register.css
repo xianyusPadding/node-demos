@@ -1,0 +1,43 @@
+#middle{
+	width:100%;
+	max-width:350px;
+	height: 450px;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	border:4px solid #eee;
+}
+#middle .center{
+	width:300px;
+	height:130px;
+	margin-top: 20px;
+	margin-left:22px; 
+}
+#middle .center h4{
+	line-height: 26px;
+	font-weight: normal;
+}
+#middle .center .name,.number,.password,.phone,.address{
+	width: 300px;
+	height:25px;
+	margin-bottom: 10px;
+}
+#middle .pwdAbout{
+	width: 300px;
+	height:30px;
+	font-size: 14px;
+	margin-left: 22px;
+	margin-top: 200px;
+}
+#middle .forgetPwd{
+	float:right;
+}
+#middle .button{
+	width:300px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left:22px;
+	color: white;
+	/*border-radius: 5px;*/
+	background: #ff9900;
+}
