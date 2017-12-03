@@ -4,7 +4,7 @@ const cheerio = require("cheerio")
 
 let app = express()
 
-app.get('/', function (res, res, next) {
+app.get('/', function (req, res, next) {
   //用superagent去抓取https://cnodejs.org/的内容
   superagent.get('https://cnodejs.org')
     .end(function (err, sres) {
