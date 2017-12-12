@@ -10,7 +10,7 @@ const fetchUrl = function(url, callback) {
   console.log('现在的并发数是', concurrencyCount, '，正在抓取的是', url, '，耗时' + deply + '毫秒')
   setTimeout(function() {
     concurrencyCount--
-    callback(null, url + 'html content')
+    callback(null, url + ' html content')
   }, deply)
 }
 
